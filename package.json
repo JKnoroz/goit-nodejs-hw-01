@@ -4,7 +4,9 @@
   "description": "основы node js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/JKnoroz/goit-nodejs-hw-01/issues"
   },
-  "homepage": "https://github.com/JKnoroz/goit-nodejs-hw-01#readme"
+  "homepage": "https://github.com/JKnoroz/goit-nodejs-hw-01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "yargs": "^17.3.1"
+  }
 }
